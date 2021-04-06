@@ -11,7 +11,6 @@
 <body>
     <?php
 
-        echo '<div class="container mt-3"> </div>';
         include './conexion.php';
         $db = mysqli_select_db( $conn , $database  ) or die ( "Upps! Pues va a ser que no se ha podido conectar a la base de datos" );
         $consulta = "SELECT * FROM colores2";
